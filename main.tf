@@ -1,4 +1,4 @@
-resource "google_compute_instance" "hcp-vm" {
+/*resource "google_compute_instance" "hcp-vm" {
   name         = "vm-without-providervlock"
   machine_type = "n2-standard-2"
   zone         = "us-central1-a"
@@ -13,4 +13,4 @@ resource "google_compute_instance" "hcp-vm" {
   network_interface {
     network = "default"
   }
-}
+}*/
